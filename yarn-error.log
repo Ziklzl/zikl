@@ -1,0 +1,99 @@
+Arguments: 
+  /Users/mr.liu/.nvm/versions/node/v16.20.1/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/mr.liu/.nvm/versions/node/v16.20.1/bin:/Users/mr.liu/.npm-global/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/mr.liu/.npm-global/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.20.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/mr.liu/Library/Caches/Yarn/v6/npm-estraverse-4.3.0-398ad3f3c5a24948be7725e83d11a7de28cdbd1d-integrity/node_modules/estraverse/LICENSE.BSD' -> '/Users/mr.liu/Desktop/1/myapp/node_modules/eslint-scope/node_modules/estraverse/LICENSE.BSD'
+
+npm manifest: 
+  {
+    "name": "uiTemplate",
+    "version": "0.0.1",
+    "description": "A react library developed with dumi",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "start": "npm run dev",
+      "dev": "dumi dev",
+      "build": "father build",
+      "build:watch": "father dev",
+      "docs:build": "dumi build",
+      "prepare": "husky install && dumi setup",
+      "doctor": "father doctor",
+      "lint": "npm run lint:es && npm run lint:css",
+      "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
+      "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
+      "prepublishOnly": "father doctor && npm run build"
+    },
+    "authors": [
+      "17596177190@163.com"
+    ],
+    "license": "MIT",
+    "files": [
+      "dist"
+    ],
+    "commitlint": {
+      "extends": [
+        "@commitlint/config-conventional"
+      ]
+    },
+    "lint-staged": {
+      "*.{md,json}": [
+        "prettier --write --no-error-on-unmatched-pattern"
+      ],
+      "*.{css,less}": [
+        "stylelint --fix",
+        "prettier --write"
+      ],
+      "*.{js,jsx}": [
+        "eslint --fix",
+        "prettier --write"
+      ],
+      "*.{ts,tsx}": [
+        "eslint --fix",
+        "prettier --parser=typescript --write"
+      ]
+    },
+    "publishConfig": {
+      "access": "public"
+    },
+    "peerDependencies": {
+      "react": ">=16.9.0",
+      "react-dom": ">=16.9.0"
+    },
+    "devDependencies": {
+      "@commitlint/cli": "^17.1.2",
+      "@commitlint/config-conventional": "^17.1.0",
+      "@types/react": "^18.0.0",
+      "@types/react-dom": "^18.0.0",
+      "@umijs/lint": "^4.0.0",
+      "dumi": "^2.2.0",
+      "eslint": "^8.23.0",
+      "father": "^4.1.0",
+      "husky": "^8.0.1",
+      "lint-staged": "^13.0.3",
+      "prettier": "^2.7.1",
+      "prettier-plugin-organize-imports": "^3.0.0",
+      "prettier-plugin-packagejson": "^2.2.18",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "stylelint": "^14.9.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
