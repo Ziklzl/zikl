@@ -1,7 +1,7 @@
-# uiTemplate
+# Zikl
 
-[![NPM version](https://img.shields.io/npm/v/uiTemplate.svg?style=flat)](https://npmjs.org/package/uiTemplate)
-[![NPM downloads](http://img.shields.io/npm/dm/uiTemplate.svg?style=flat)](https://npmjs.org/package/uiTemplate)
+[![NPM version](https://img.shields.io/npm/v/Zikl.svg?style=flat)](https://npmjs.org/package/Zikl)
+[![NPM downloads](http://img.shields.io/npm/dm/Zikl.svg?style=flat)](https://npmjs.org/package/Zikl)
 
 A react library developed with dumi
 
