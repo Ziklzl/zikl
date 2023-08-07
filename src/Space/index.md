@@ -8,8 +8,8 @@ group:
 Space 组件
 
 ```jsx
-import { Space } from 'Zikl';
-import { Button } from 'Zikl';
+import { Space } from 'zikl';
+import { Button } from 'zikl';
 
 export default () => (
   <Space size={11}>

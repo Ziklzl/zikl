@@ -8,8 +8,8 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "Zikl": ["src"],
-      "Zikl/*": ["src/*", "*"]
+      "zikl": ["src"],
+      "zikl/*": ["src/*", "*"]
     }
   },
   "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]

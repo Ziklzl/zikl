@@ -8,7 +8,7 @@ group:
 Button 按钮
 
 ```jsx
-import { Button } from 'Zikl';
+import { Button } from 'zikl';
 
 export default () => (
   <>

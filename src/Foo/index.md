@@ -8,7 +8,7 @@ group:
 This is an example component.
 
 ```jsx
-import { Foo } from 'Zikl';
+import { Foo } from 'zikl';
 
 export default () => <Foo title="Hello dumi!" />;
 ```
